@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+.App{
+
+    background: linear-gradient(rgb(143, 143, 245),rgb(250, 183, 172),rgb(142, 243, 142));
+    height: 100vh;
+}
+button{
+    color:black;
+    margin: 5vw;
+    height: 4vw;
+    font-size: 1.8vw;
+    border-radius: 1vw;
+    border:none;
+    background-color: rgb(189, 252, 252);
+}
+button:hover{
+    background-color:rgba(0, 255, 242, 0.877); 
+}
+
+#boxClass{
+    border-radius: 1vw;
+    width: 35vw;
+    height: 18vw;
+    font-size: 2vw;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1vw;
+    background-color:rgb(54, 54, 119);
+}
+#boxClass:hover{
+    background-color: navy;
+}
+#boxFunc{
+    border-radius: 1vw;
+    width: 35vw;
+    height: 18vw;
+    font-size: 2vw;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1vw;
+    background-color:rgb(91, 123, 133)
+}
+#boxFunc:hover{
+    background-color: rgb(1, 130, 134)
+}
+.hid{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw;
+}
